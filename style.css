@@ -1,0 +1,1260 @@
+* {
+  padding: 0%;
+  margin: 0;
+  max-width: 100%;
+}
+html, body {
+  overflow-x: hidden;
+}
+selector:pseudo-class {
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  text-align: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  background-color: black;
+  z-index: 1000;
+}
+.logo
+p {
+  color: white;
+  font-size: 30px;
+  /* padding-left: 20px; */
+}
+.logo i {
+  color: orangered;
+  font-size: 50px;
+}
+.logo{
+  display: flex;
+  padding-left: 20px;
+}
+.left a:hover{
+  text-decoration: underline;
+}
+span a {
+  text-decoration: none;
+  padding: 50px;
+  color: white;
+}
+span a:hover {
+  color: white;
+}
+
+span a:first-child {
+  color: orangered;
+}
+span a:last-child {
+  background-color: orangered;
+  color: white;
+}
+.div {
+  background-image: url("images/wel\ 3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  text-align: center;
+  padding-top: 20%;
+  font-size: 50px;
+  font-weight: 800;
+  background-blend-mode: multiply;
+  background-color: rgba(19, 17, 17, 0.671);
+  /* position: absolute; */
+  /* right: 20px; */
+ 
+}
+#sh{
+  color: white;
+  font-size: 80px;
+}
+.cob{
+  position: relative;
+  left: -10%;
+  bottom: 50px;
+}
+#tam {
+  color: orangered;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+button {
+  background-color: orangered;
+  height: 50px;
+  width: 200px;
+  color: white;
+  font-weight: 800;
+}
+#con{
+  background-color: transparent;
+  color: white;
+
+}
+button:hover {
+  background-color: black;
+  #con{
+    background-color: orangered;
+  }
+}
+
+/* section id=team1 */
+#team1 {
+  padding-top: 5%;
+}
+#team1 h1 {
+  color: orangered;
+}
+
+#team1 h1,
+h2 {
+  padding-left: 4%;
+}
+#team,
+h2 {
+  font-size: 60px;
+  font-weight: 800;
+}
+#team,
+p:first-child {
+  font-size: 35px;
+}
+.team1 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.team1 p {
+  color: black;
+  width: 500px;
+  padding-top: 10%;
+}
+
+.item2 {
+  padding: 10px;
+  display: flex;
+  gap: 40px;
+}
+.item2 img:first-child {
+  height: 50vh;
+  position: relative;
+  bottom: 50%;
+}
+.item2 img:last-child {
+  position: relative;
+  height: 50vh;
+  bottom: 50%;
+}
+.item2 img:nth-child(2) {
+  height: 50vh;
+  position: relative;
+}
+
+.item2 img {
+  width: 400px;
+  height: 60vh;
+}
+
+
+/* section id=team2 */
+#team2 {
+  background-image: url(images/oxyacetylene-cutting.jpg);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.459);
+  text-align: center;
+  align-items: center;
+  height: 70vh;
+}
+#team2 h1 {
+  color: orangered;
+  font-size: 30px;
+  font-weight: 800;
+}
+#jaj {
+  font-size: 60px;
+  font-weight: 800;
+  color: white;
+}
+.ta1 i{
+  font-size: 40px;
+  color: orangered;
+  padding-top: 40px;
+}
+
+.head {
+  padding-top: 10%;
+}
+.cap{
+  padding-bottom: 30px;
+}
+.team2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.team2 img {
+  width: 400px;
+  height: 40vh;
+}
+.ta1 {
+  width: 300px;
+  background-color: white;
+  height: 40vh;
+  position: relative;
+  bottom: 1px;
+  box-sizing: border-box;
+  box-shadow: 0px 8px 10px rgb(0, 0, 0, 0.5);
+
+  align-items: center;
+  border-radius: 20px;
+}
+.ta1:hover {
+  background-color: orangered;
+  color: white;
+  i{
+    color: white;
+  }
+  #ts{
+    color: white;
+  }
+}
+h3 {
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+#ts {
+  color: black;
+  font-size: 20px;
+  width: 200px;
+  text-align: center;
+  padding-left: 50px;
+}
+
+
+/* section id=team3 */
+#team3 {
+  padding-bottom: 100px;
+}
+
+#team3 {
+  padding-top: 20%;
+}
+
+h4 {
+  color: orangered;
+  padding-left: 5%;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.team3 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1%;
+  padding: 10px 96px;
+}
+
+.div3 {
+  color: black;
+  font-size: 40px;
+}
+
+
+/* section id=team4 */
+#team4{
+  height: 50vh;
+}
+.team4 {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-top: 30px;
+
+  
+}
+
+.tash img {
+  width: 400px;
+  height: 30vh;
+}
+.tash {
+  background-color: black;
+  height: 45vh;
+  box-shadow: 0px 8px 20px 0 rgb(0,0,0,0.5);
+  border: 10px outset gray;
+  width: 300px;
+}
+.tash:hover{
+ 
+}
+#tim {
+  color: orangered;
+  font-size: 20px;
+}
+h6 {
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+
+/* section id=team5 */
+#team5 {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 10%;
+}
+#h5 {
+  color: orangered;
+  font-size: 30px;
+  font-weight: 800;
+}
+.test img {
+  width: 150px;
+  height: 20vh;
+  border-radius: 100%;
+  position: relative;
+  bottom: 140px;
+}
+#tet{
+  animation: transform;
+  animation-name: tet;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  color: white;
+  width: 90%;
+  font-size: 30px;
+  padding-left: 5%;
+}
+#cz{
+  color: gray;
+  font-size: 20px;
+  font-style: oblique;
+  font: 700;
+  position: relative;
+  bottom: 100px;
+}
+
+#tet{
+   bottom: 110px;
+   color: white;
+   position: relative;
+}
+@keyframes tet{
+  0%{
+    transform: t;
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+#client {
+  color: black;
+  font-size: 70px;
+  font-weight: 700;
+}
+.test {
+  padding-top: 4%;
+  background-color: black;
+  width: 50%;
+  height: 45vh;
+  margin: auto;
+
+  
+}
+.test{
+  animation: moveX 2s linear infinite;
+  animation-timing-function: linear;
+  animation-duration: 4s;
+  animation-name: mov-x ;
+}
+
+
+.left {
+  display: flex;
+  align-items: center;
+  position: relative;
+ 
+}
+
+.left i {
+  position: relative; 
+  background-color: orangered;
+  width: 50px;
+  height: 5vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 300px;
+  right: 20px;
+}
+
+.right i{
+  color: white;
+ position: relative;
+ background-color: orangered;
+ width: 50px;
+ height: 5vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ bottom: 350px;
+ left:97% ;
+
+}
+
+
+/* section id=team6  */
+#team6{
+  padding-top: 3%;
+  background-image: url(images/welding1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  
+} 
+#vah{
+  color: orangered;
+  text-align: center;
+  font-size: 70px;
+}
+#sa{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+.dash1 i{
+  color: orangered;
+  font-size: 50px;
+}
+ .team6{
+  display: flex;
+  grid-template-rows: auto;
+  gap: 10px 0px;
+  padding: 50px;
+  position: relative;
+  top: 90px;
+  
+ 
+}
+.dashed{
+ width: 25%;
+ background-color: white;
+ text-align: center;
+ box-shadow: 0px 8px 10px;
+ margin: auto;
+ height: 75vh;
+ text-align: center;
+ border-radius: 50px;
+ 
+
+
+}
+
+.dashed:hover{
+  background-color: orangered;
+  #h1,#cas,#dim{
+    color: white;
+  }
+  
+}
+#cas{
+  color: black;
+  font-size: 30px;
+}
+#h1{
+  color: black;
+  font-size: 30px;
+}
+#dim{
+  color: black;
+  width: 95%;
+  font-size: 30px;
+
+}
+
+
+.dsa img{
+   width: 400px;
+   height: 40vh;
+}
+.dsa{
+  text-align: center;
+}
+cla{
+  padding-top: 40px;
+}
+.news{
+  display: flex;
+  justify-content: center;
+  gap: 40px 40px;
+  padding-top: 10%;
+
+}
+
+
+/* id any section*/
+#any{
+  padding-top: 20%;
+}
+.any{
+text-align: center;
+}
+#ca{
+  color: orangered;
+}
+#mo{
+  color: black;
+  font-size: 40px;
+}
+.msg{
+  background-color: black;
+  
+}
+.msg:hover{
+  background-color: orangered;
+  color: white;
+}
+#call{
+  font-size: 30px;
+  color: white;
+}
+.nnt{
+  position: relative;
+  bottom: 370px;
+  left: 10px;
+  
+}
+.back-to-top {
+  position: fixed;
+  bottom: 60px;
+  right: 30px;
+  background-color: #f44336;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 50%;
+  font-size: 18px;
+  text-decoration: none;
+  z-index: 100;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* section of footer */
+#footer{
+  background-color: rgb(10, 7, 7);
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 10vh;
+  padding: 10px;
+}
+#hhr{
+  background-color: white;
+  color: gray;
+  font: 600;
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.ema{
+  text-align: center;
+  padding-right: 100px;
+  align-content: center;
+  
+}
+.bas{
+  color: white;
+  font-size: 30px;
+}
+
+#hhr:hover,
+#hhr:focus {
+  outline: 2px solid orangered;
+  background-color: #faf6f6;
+  color: white;
+  width: 500px;
+  transition: all 0.3s;
+}
+
+#ha{
+  background-color:orangered;
+  color: white;
+  font-size: 15px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+}
+#ha:hover{
+  background-color: black;
+  color: white;
+}
+.location{
+  display: flex;
+  justify-content: space-evenly;
+}
+#vam{
+  color: orangered;
+  font-size: 30px;
+ 
+}
+#vat{
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+#log{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.log1{
+  display: flex;
+}
+.log1 i{
+ font-size: 40px;
+ color: orangered;
+}
+.log2 a{
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  color: orangered;
+}
+.log2 a:hover{
+  text-decoration: underline;
+  color: white;
+}
+.log2 a:link{
+  color: blue;
+}
+.log2 a:visited{
+  color: gainsboro;
+}
+.loc1{
+  width: 200px;
+  height: 20vh;
+  border-right: 5px solid white;
+  box-sizing: border-box;
+  text-align: center;
+}
+#sim{
+  font-size: 30px;
+  font-family: sans-serif;
+  padding-left: 10px;
+  color: white;
+}
+#log{
+  height: 10vh;
+}
+.log3 i{
+  padding: 10px;
+  font-size: 30px;
+  background-color: white;
+  color: orangered;
+  border-radius: 20px;
+}
+.log3 i:hover{
+  border-radius: 50%;
+  color: rgb(29, 29, 54);
+  background-color: orangered;
+}
+.log3 i:link{
+  color: red;
+}
+.log3 i:visited{
+  color: green;
+}
+.copy{
+  display: flex;
+  justify-content: space-between;
+}
+#copy{
+  font-size: 20px;
+  color: orangered;
+  font-style: oblique;
+}
+#copy1{
+  font-size: 20px;
+  color: white;
+}
+#cf{
+  font-size: 20px;
+  font-style: oblique;
+  color: orangered;
+}
+
+
+
+
+/* Mobile responsiveness for phones */
+@media screen and (max-width: 768px) {
+  #navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+    position: inherit;
+  }
+  span a, .log2 a {
+    display: block;
+    padding: 15px 0;
+    font-size: 18px;
+    text-align: center;
+  }
+ 
+  .logo {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  /* div section */
+
+  .div{
+    height: 60vh;
+  }
+  .cob{
+    position: relative;
+    right: 10%;
+    top: 10%;
+    padding-left: 100px;
+   
+  }
+
+  #sh{
+    font-size: 30px;
+  }
+
+
+  /* team 1 section */
+  /* #team1{
+    width: 100%;
+  } */
+  .team1{
+    display: block;
+     width: 100%;
+    /* position: relative; */
+    
+  }
+
+
+  .item2{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+   box-sizing: border-box;
+  
+    
+    
+  }
+  .item2 img{
+    display: flex;
+    width: 50%
+  
+    
+  }
+/* section team2 */
+
+#team2{
+  height: 90vh;
+}
+#jaj{
+  font-size: 100%;
+}
+
+.ta1 h3{
+  font-size: 90%;
+}
+.team2{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5px 0px;
+ 
+ }
+.ta1{
+  width: 80%;
+  text-align: center;
+  height: 40vh;
+
+}
+.ta1 i{
+  font-size: 50px;
+  padding-top: 10%;
+}
+.ta1 h3{
+  font-size: 30px;
+}
+#ts{
+  text-align: center;
+  width: 200px;
+  padding-left: 0%;
+  padding-bottom: 30%;
+}
+
+ /* section team1 */
+  #team1 h1 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15%;
+  }
+  #team1 h2{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .item1 button{
+    width: 40%;
+  }
+ .item2 img{
+
+ }
+   .item1 p{
+    font-size: 25px;
+    height: 30vh;
+    width: 400px;
+  }
+
+
+  /* section team3 */
+  #team3{
+    position: relative;
+    top: 100px;
+  }
+ 
+ .team3{
+    padding-top: 10%;
+ }
+ .div3 h5{
+  position: relative;
+  right: 40%;
+  font-size: 20px;
+ } 
+ .div4 button{
+  width: 100px;
+  height: 6vh;
+  font-size: 50%;
+  position: relative;
+  left: 50%;
+ }
+ 
+  /* #team4 */
+
+  #team4{
+
+  }
+
+  .team4{
+    display: block;
+    flex-direction: column;
+
+
+
+  }
+
+  .tash{
+    margin: auto;
+    width: 80%;
+    
+  }
+
+
+  /* section5 */
+
+  #team5{
+   padding-top: 300px;
+    
+  }
+
+  .team5{
+    padding-top: 950px;
+  }
+  #client{
+    font-size: 30px;
+  }
+  .test{
+    width: 90%;
+    text-align: center;
+    height: 40vh;
+  }
+
+  #tet{
+    font-size: 20px;
+    position: relative;
+    bottom: 60px;
+    
+   
+  }
+ #cz{
+
+ }
+  .test img{
+    position: relative;
+    bottom: 35%;
+  }
+  .right{
+    right: 60px;
+    /* width: 20px; */
+  }
+  .left{
+    padding-top: 50px;
+  }
+
+  /* section6 */
+
+  #team6 {
+  padding-top: 3%;
+  background-image: url(images/welding1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; 
+  height: auto;      
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+  
+
+  
+
+  .team6{
+ display: block;
+ 
+ 
+ 
+  }
+  .dashed {
+  width: 500px;
+  margin: 0 auto 50px auto;
+  box-sizing: border-box;
+  height: 47vh;
+ 
+  
+} 
+.dashed:hover{
+  background-color: orangered;
+  #h1{
+    color: white;
+  }
+}
+
+  #h1 ,#cas {
+    font-size: 20px;
+    position: relative;
+    bottom: 20px;
+
+
+  }
+  #dim{
+    font-size: 20px;
+   position: relative;
+   bottom: 20px;
+ 
+  }
+
+
+
+  /* any section */
+
+  #any{
+    padding-top: 150px;
+  }
+
+  #mo{
+    font-size: 30px;
+  }
+
+  .news{
+    display: block;
+    flex-direction: column;
+    gap: 20px;
+   
+
+  }
+
+  .dsa{
+    width: 70%;
+   margin: auto;
+  padding-top: 50px;
+
+  }
+
+
+  
+  .back-to-top {
+    right: 10px;
+    bottom: 10px;
+    padding: 8px 10px;
+    font-size: 16px;
+  }
+
+  #footer, .top, .copy, #log, .location {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px ;
+    height: auto;
+    padding: 10px 0;
+  }
+  #hhr {
+    width: 90%;
+    font-size: 16px;
+  }
+  .ema {
+    padding-right: 0;
+  }
+  
+  .log1{
+      display: block;
+
+  }
+    .loc1 {
+    width: 100%;
+    border-right: none;
+    border-bottom: 2px solid white;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  #sim, #vat, #vam, #copy, #copy1, #cf {
+    font-size: 30px;
+    padding: 0;
+    text-align: center;
+  }
+  .back-to-top {
+    right: 10px;
+    bottom: 10px;
+    padding: 8px 10px;
+    font-size: 16px;
+  }
+}
+    
+
+/* Tablet responsiveness for screens between 769px and 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+  #navbar {
+    flex-direction: row;
+    height: auto;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+  .logo {
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+  }
+
+  span a, .log2 a {
+    display: inline-block;
+    padding: 20px 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+  /* .div section */
+
+ .div{
+  padding-left: 25%;
+
+ }
+ .cob{
+  padding-top:100px;
+ }
+ .cob button{
+  width: 300px;
+  font-size: 20px;
+ }
+ 
+
+
+ /* team1 section */
+ #team1{
+     display: block;
+     overflow-x: scroll;
+
+ }
+
+
+
+ /* team2 section */
+ #team2{
+  height:80vh;
+ }
+ #ts{
+  font-size: 30px;
+ }
+ .team2{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px 10px;
+ }
+ .ta1{
+  height: 33vh;
+ }
+
+
+ /* team3 section */
+
+ #team3{
+  padding-top: 300px;
+ }
+ 
+
+ /* team 4 setion */
+.tash{
+  /* height: 80vh; */
+
+
+}
+#tim{
+  font-size: 30px;
+}
+
+
+ /* team5 section */
+ .test{
+  width: 80%;
+  
+
+ }
+ .test img{
+  width: 30%;
+  height: 20vh;
+ }
+ #tet{
+  position: relative;
+  bottom: 100px;
+ }
+  #cz{
+    position: relative;
+    bottom: 100px;
+  }
+
+
+  /* team6 secton */
+
+  #team6{
+  /* height: 70vh; */
+  box-sizing: border-box;
+  }
+
+
+  
+   .team6{
+    display: grid;
+   /* position: relative; */
+   left: -5%;
+   grid-template-columns: auto auto;
+
+     
+  }
+
+
+ 
+
+  .dashed{
+    width: 400px;
+    height: 45vh;
+    text-align: center;
+   
+   
+  } 
+
+ 
+  .dashed:hover{
+    background-color: orangered;
+    color: white;
+    box-shadow: none;
+    #h1{
+      color: white;
+    }
+  }
+ 
+
+
+
+  /* anything section */
+
+  #any{
+   display: block;
+   box-sizing: border-box;
+   padding-top: 50%;
+
+  }
+
+  .news{
+    width: 100%;
+    box-sizing: border-box;
+  }
+  #hhr {
+    width: 70%;
+    font-size: 18px;
+  }
+  .ema {
+    padding-right: 0;
+    color: black;
+  }
+  .nnt{
+    position: relative;
+    top: 0px;
+  }
+
+  .loc1 {
+    width: 30%;
+    border-right: none;
+    border-bottom: 2px solid white;
+    height: auto !important;
+    margin-bottom: 10px;
+  }
+  .back-to-top {
+    right: 20px;
+    bottom: 20px;
+    padding: 10px 14px;
+    font-size: 18px;
+  }
+
+
+
+  /* footer section */
+  #footer, .top, .copy, #log, .location {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: auto;
+    padding: 20px 0;
+  }
+  .dsa {
+    width: 48%;
+    margin: 10px 1%;
+  }
+}
+
+
