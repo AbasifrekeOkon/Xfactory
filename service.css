@@ -523,12 +523,12 @@ font-size: 20px;
     height: auto;
   }
 
-   /* #ha {
+   #ha {
     width: 20% ;
     left: 0 ;
     font-size: 16px;
     margin: 10px 0;
-  } */
+  }
 
 
 
@@ -554,10 +554,10 @@ font-size: 20px;
     top: 180px;
   }
  #hhr{
-    background-color: blue;
+    background-color: transparent;
     color: white;
+    padding-left: 10px;
   }
-
   #ha{
   position: relative;
   top: 9px;

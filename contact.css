@@ -346,9 +346,11 @@ button:hover {
   }
 
   .sect1 {
-    display: block;
-    padding-left: 20%;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 0%;
     padding-top: 60px;
+    gap: 30px;
     
   }
 
@@ -370,6 +372,12 @@ button:hover {
   }
   .form button {
     width: 50%;
+  }
+     #ha {
+    width: 20% ;
+    left: 0 ;
+    font-size: 16px;
+    margin: 10px 0;
   }
 
 
@@ -395,8 +403,9 @@ button:hover {
     top: 180px;
   }
  #hhr{
-    background-color: blue;
+    background-color: transparent;
     color: white;
+    padding-left: 10px;
   }
 
   #ha{

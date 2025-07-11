@@ -533,7 +533,7 @@ text-align: center;
 }
 .nnt{
   position: relative;
-  bottom: 370px;
+  bottom: 410px;
   left: 10px;
   
 }
@@ -891,7 +891,7 @@ text-align: center;
   /* section5 */
 
   #team5{
-   padding-top: 300px;
+   padding-top: 600px;
     
   }
 
@@ -1036,9 +1036,10 @@ text-align: center;
     position: relative;
     top: 180px;
   }
- #hhr{
-    background-color: blue;
+  #hhr{
+    background-color: transparent;
     color: white;
+    padding-left: 10px;
   }
 
   #ha{

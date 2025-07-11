@@ -348,8 +348,9 @@ span a:last-child {
     top: 180px;
   }
  #hhr{
-    background-color: blue;
+    background-color: transparent;
     color: white;
+    padding-left: 10px;
   }
 
   #ha{
@@ -376,6 +377,12 @@ span a:last-child {
     bottom: 10px;
     padding: 8px 10px;
     font-size: 16px;
+  }
+     #ha {
+    width: 20% ;
+    left: 0 ;
+    font-size: 16px;
+    margin: 10px 0;
   }
 }
 
