@@ -306,12 +306,22 @@ span a:last-child {
     
   }
 
+  .div{
+    box-sizing: border-box;
+    width: 90%;
+    height: 48vh;
+    
+  }
+
   .figure1{
     width: 100%;
   }
  .text{
   font-size: 20px;
+  height: 60px;
+  
  }
+
 
    .back-to-top {
     right: 10px;
