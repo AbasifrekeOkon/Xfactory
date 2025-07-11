@@ -387,47 +387,42 @@ span a:last-child {
 
 
   /* footer section */
-    #hhr {
-    width: 70%;
-    font-size: 18px;
+  #footer, .top, .copy, #log, .location {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px ;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  #footer{
+    position: relative;
+    top: 180px;
+  }
+  #hhr {
+    width: 90%;
+    font-size: 16px;
   }
   .ema {
     padding-right: 0;
-    color: black;
   }
-  .nnt{
-    position: relative;
-    top: 0px;
-  }
-
-  .loc1 {
-    width: 30%;
+    .loc1 {
+    width: 100%;
     border-right: none;
     border-bottom: 2px solid white;
-    height: auto !important;
+    height: auto;
     margin-bottom: 10px;
   }
+  #sim, #vat, #vam, #copy, #copy1, #cf {
+    font-size: 16px;
+    padding: 0;
+  }
   .back-to-top {
-    right: 20px;
-    bottom: 20px;
-    padding: 10px 14px;
-    font-size: 18px;
-  }
-
-
-
-  /* footer section */
-  #footer, .top, .copy, #log, .location {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    height: auto;
-    padding: 20px 0;
-  }
-  .dsa {
-    width: 48%;
-    margin: 10px 1%;
+    right: 10px;
+    bottom: 10px;
+    padding: 8px 10px;
+    font-size: 16px;
   }
 }
 

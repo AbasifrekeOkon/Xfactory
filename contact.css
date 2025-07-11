@@ -373,150 +373,9 @@ button:hover {
   }
 
   /* footer section */
-  #footer,
-  .top,
-  .copy,
-  #log,
-  .location {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    height: auto;
-    padding: 10px 0;
-  }
-  #footer {
-    position: relative;
-    top: 200px;
-    height: 145vh;
-  }
-  #hhr {
-    width: 90%;
-    font-size: 16px;
-  }
-  .ema {
-    padding-right: 0;
-  }
-
-  .log1 {
-    display: block;
-  }
-  .loc1 {
-    width: 100%;
-    border-right: none;
-    border-bottom: 2px solid white;
-    height: auto;
-    margin-bottom: 10px;
-  }
-  #sim,
-  #vat,
-  #vam,
-  #copy,
-  #copy1,
-  #cf {
-    font-size: 30px;
-    padding: 0;
-    text-align: center;
-  }
-
-  .back-to-top {
-    right: 10px;
-    bottom: 10px;
-    padding: 8px 10px;
-    font-size: 16px;
-  }
-}
-
-/* Responsiveness for tablet */
-@media (min-width: 769px) and (max-width: 1024px) {
-  #navbar {
-    flex-direction: row;
-    height: auto;
-    padding: 20px 0;
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-  }
-
-  * {
-    margin: auto;
-    padding: auto;
-    box-sizing: border-box;
-  }
-  .logo {
-    flex-direction: row;
-    align-items: center;
-    padding-left: 10px;
-  }
-
-  span a,
-  .log2 a {
-    display: inline-block;
-    padding: 20px 10px;
-    font-size: 20px;
-    text-align: center;
-  }
-
-  /* sect1 section */
-
-  #sect1 {
-    padding-top: 150px;
-  }
-
-  .text p {
-    font-size: 28px;
-  }
-
-  .cast {
-    display: flex;
-  }
-
-  /* section2 */
-
-  /* section3 */
-
-  #sect3 {
-  }
-
-  .sect3 {
-    display: block;
-  }
-
-  .sub3 h1 {
-    font-size: 25px;
-  }
-  .sub3 p {
-    font-size: 40px;
-  }
-
-  .sub3 h2 {
-    font-size: 40px;
-  }
-
-  .form {
-    position: relative;
-    top: 150px;
-    width: 100%;
-    height: 90vh;
-  }
-
-  #cage {
-    width: 100%;
-  }
-
-
-
   /* footer section */
-  
-  .back-to-top {
-    right: 10px;
-    bottom: 10px;
-    padding: 8px 10px;
-    font-size: 16px;
-  }
-
   #footer, .top, .copy, #log, .location {
-    /* flex-direction: column; */
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 10px ;
@@ -526,7 +385,7 @@ button:hover {
 
   #footer{
     position: relative;
-    top: 100px;
+    top: 180px;
   }
   #hhr {
     width: 90%;
@@ -534,11 +393,6 @@ button:hover {
   }
   .ema {
     padding-right: 0;
-  }
-  
-  .log1{
-      display: block;
-
   }
     .loc1 {
     width: 100%;
@@ -548,9 +402,8 @@ button:hover {
     margin-bottom: 10px;
   }
   #sim, #vat, #vam, #copy, #copy1, #cf {
-    font-size: 30px;
+    font-size: 16px;
     padding: 0;
-    text-align: center;
   }
   .back-to-top {
     right: 10px;

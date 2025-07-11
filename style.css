@@ -1005,14 +1005,7 @@ text-align: center;
   }
 
 
-  
-  .back-to-top {
-    right: 10px;
-    bottom: 10px;
-    padding: 8px 10px;
-    font-size: 16px;
-  }
-
+   /* footer section */
   #footer, .top, .copy, #log, .location {
     flex-direction: column;
     align-items: center;
@@ -1021,17 +1014,17 @@ text-align: center;
     height: auto;
     padding: 10px 0;
   }
+
+  #footer{
+    position: relative;
+    top: 180px;
+  }
   #hhr {
     width: 90%;
     font-size: 16px;
   }
   .ema {
     padding-right: 0;
-  }
-  
-  .log1{
-      display: block;
-
   }
     .loc1 {
     width: 100%;
@@ -1041,9 +1034,8 @@ text-align: center;
     margin-bottom: 10px;
   }
   #sim, #vat, #vam, #copy, #copy1, #cf {
-    font-size: 30px;
+    font-size: 16px;
     padding: 0;
-    text-align: center;
   }
   .back-to-top {
     right: 10px;

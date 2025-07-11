@@ -65,17 +65,21 @@ span a:last-child {
   padding-top: 200px;
   display: flex;
   justify-content: space-around;
+  text-align: center;
 }
+
+
 .tire {
   width: 500px;
 }
 .em1 i {
-  padding-left: 80px;
+  padding-left: 0px;
   color: orangered;
   font-size: 40px;
 }
 .fig img {
   height: 60vh;
+  padding-top: 20%;
 }
 .w {
   color: orangered;
@@ -99,6 +103,8 @@ h1 {
   grid-template-columns: auto auto;
   align-items: center;
   gap: 20px 30px;
+  padding-right:17%;
+
 }
 p {
   color: black;
@@ -597,35 +603,49 @@ p {
   .construct {
     display: grid;
     grid-template-columns: auto;
-    padding-left: 20%;
+    padding-left: 10%;
   }
 
   /* team 1 */
 
   #team1 {
     height: 100vh;
+
+  }
+  .team1{
+    padding-top: 100px;
+  }
+
+  .subcase1{
+    width: 100%;
+    height: 40vh;
   }
   .case2 {
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
     box-sizing: border-box;
-    width: 100%;
     gap: 20px 10px;
     height: 80vh;
     overflow-x: scroll;
   }
+
+
 
   /* team2 section */
   #team2 {
     width: 100%;
     position: relative;
     left: 0%;
+    top: 60px;
+    height: inherit;
   }
   #subteam2 {
     padding-bottom: 00px;
     height: 500px;
     z-index: 0;
     height: 90vh;
+  }
+  .subteam2{
+    height: 130vh ;
   }
 
   .subteam2 img {
@@ -663,13 +683,12 @@ p {
   /* <!-- section id team3 --> */
   #team3 {
     display: block;
-    height: 80vh;
+    height: 110vh;
   }
 
-  #team img {
+  #team3 img {
     position: relative;
-    right: 0%;
-    left: 0%;
+    left: -7%;
   }
 
 
@@ -678,7 +697,7 @@ p {
   /* <!-- section 4 --> */
 
  #team4 {
-  padding-top: 5%;
+  padding-top: 15%;
   height: 900px;
   
 }
@@ -725,7 +744,7 @@ p {
 .figure img {
   position: relative;
   width: 100%;
-  top: 29px;
+  top: 40px;
   height: 100vh;
 }
 #mall,#run,#dim{
@@ -739,24 +758,19 @@ p {
    
  }
 
-/* footer section */
-  #footer,
-  .top,
-  .copy,
-  #log,
-  .location {
+  /* footer section */
+  #footer, .top, .copy, #log, .location {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 10px ;
     height: auto;
     padding: 10px 0;
-   
   }
+
   #footer{
-   position: relative;
-   top: 0px;
-   height: 150vh;
+    position: relative;
+    top: 0px;
   }
   #hhr {
     width: 90%;
@@ -765,30 +779,16 @@ p {
   .ema {
     padding-right: 0;
   }
-
-  .log1 {
-    display: block;
-  }
-
-  .log2 a{
-    display: block;
-  }
-  .loc1 {
+    .loc1 {
     width: 100%;
     border-right: none;
     border-bottom: 2px solid white;
     height: auto;
     margin-bottom: 10px;
   }
-  #sim,
-  #vat,
-  #vam,
-  #copy,
-  #copy1,
-  #cf {
-    font-size: 30px;
+  #sim, #vat, #vam, #copy, #copy1, #cf {
+    font-size: 16px;
     padding: 0;
-    text-align: center;
   }
   .back-to-top {
     right: 10px;
