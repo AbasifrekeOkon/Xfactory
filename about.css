@@ -683,7 +683,7 @@ p {
   /* <!-- section id team3 --> */
   #team3 {
     display: block;
-    height: 110vh;
+    height: 75vh;
   }
 
   #team3 img {
@@ -741,12 +741,13 @@ p {
 .css {
   width: 100%;
 }
-.figure img {
+/* .figure img {
   position: relative;
   width: 100%;
   top: 40px;
   height: 100vh;
-}
+  visibility: hidden;
+} */
 #mall,#run,#dim{
   font-size: 19px;
 }
@@ -758,24 +759,20 @@ p {
    
  }
 
-  /* footer section */
-  #footer, .top, .copy, #log, .location {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px ;
-    height: auto;
-    padding: 10px 0;
-  }
-
   #footer{
     position: relative;
     top: 0px;
   }
-  #hhr {
-    width: 90%;
-    font-size: 16px;
+ #hhr{
+    background-color: blue;
+    color: white;
   }
+
+  #ha{
+  position: relative;
+  top: 9px;
+  }
+
   .ema {
     padding-right: 0;
   }

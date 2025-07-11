@@ -372,6 +372,7 @@ button:hover {
     width: 50%;
   }
 
+
   /* footer section */
   /* footer section */
   #footer, .top, .copy, #log, .location {
@@ -383,14 +384,26 @@ button:hover {
     padding: 10px 0;
   }
 
+  .log2 {
+    display: flex;
+    padding: 10px;
+    gap: 10px 20px;
+  }
+
   #footer{
     position: relative;
     top: 180px;
   }
-  #hhr {
-    width: 90%;
-    font-size: 16px;
+ #hhr{
+    background-color: blue;
+    color: white;
   }
+
+  #ha{
+  position: relative;
+  top: 9px;
+  }
+
   .ema {
     padding-right: 0;
   }
