@@ -5,7 +5,8 @@
 }
 html,
 body {
-  overflow-x: hidden;
+  overflow-y: scroll;
+
 }
 selector:pseudo-class {
 }
@@ -609,7 +610,7 @@ p {
   /* team 1 */
 
   #team1 {
-    height: 100vh;
+    height: 90vh;
 
   }
   .team1{
@@ -618,14 +619,13 @@ p {
 
   .subcase1{
     width: 100%;
-    height: 40vh;
+    height: 35vh;
   }
   .case2 {
     display: flex;
     box-sizing: border-box;
     gap: 20px 10px;
-    height: 80vh;
-    overflow-x: scroll;
+    height: 70vh;
   }
 
 
@@ -642,7 +642,7 @@ p {
     padding-bottom: 00px;
     height: 500px;
     z-index: 0;
-    height: 90vh;
+    height: 70vh;
   }
   .subteam2{
     height: 130vh ;
@@ -688,7 +688,8 @@ p {
 
   #team3 img {
     position: relative;
-    left: -7%;
+    left: -1%;
+    width: 100%;
   }
 
 
@@ -705,11 +706,15 @@ p {
   display: block;
   flex-direction: column;
   width: 440px;
-  padding-left: 10px;
+
+  text-align: center;
+  margin: auto;
+  width: 100%;
 }
 .css {
   height: 100vh;
   width: 100%;
+  padding-left: 15px;
 } 
 .vas {
   background-color: cadetblue;
@@ -741,13 +746,7 @@ p {
 .css {
   width: 100%;
 }
-/* .figure img {
-  position: relative;
-  width: 100%;
-  top: 40px;
-  height: 100vh;
-  visibility: hidden;
-} */
+
 #mall,#run,#dim{
   font-size: 19px;
 }
@@ -767,8 +766,7 @@ p {
   }
 
 
-  /* footer section */
-  /* footer section */
+ /* footer section */
   #footer, .top, .copy, #log, .location {
     flex-direction: column;
     align-items: center;
@@ -776,6 +774,7 @@ p {
     gap: 10px ;
     height: auto;
     padding: 10px 0;
+    width: 100%;
   }
 
   .log2 {
@@ -786,13 +785,11 @@ p {
 
   #footer{
     position: relative;
-    top: 180px;
   }
  #hhr{
     background-color: transparent;
     color: white;
     padding-left: 10px;
-  
   }
 
   #ha{
@@ -804,7 +801,7 @@ p {
     padding-right: 0;
   }
     .loc1 {
-    width: 100%;
+    /* width: 100%; */
     border-right: none;
     border-bottom: 2px solid white;
     height: auto;
@@ -820,8 +817,13 @@ p {
     padding: 8px 10px;
     font-size: 16px;
   }
+     #ha {
+    width: 20% ;
+    left: 0 ;
+    font-size: 16px;
+    margin: 10px 0;
+  }
 }
-
 
 @media (min-width: 769px) and (max-width: 1024px) {
      #navbar {

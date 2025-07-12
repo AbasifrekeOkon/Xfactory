@@ -350,8 +350,14 @@ button:hover {
     grid-template-columns: auto auto;
     padding-left: 0%;
     padding-top: 60px;
-    gap: 30px;
+    gap: 30px 20px;
+  
     
+    
+  }
+
+  .sect1 p{
+    font: 1em sans-serif;
   }
 
   /* section 2 */
@@ -362,13 +368,23 @@ button:hover {
   .sect3 {
     display: block;
     flex-direction: column;
+
+
   }
+  .sect3 p {
+    font-size: 1.4em;
+   
+  }
+
+
+
+
 
   .form {
     position: relative;
     top: 200px;
     width: 80%;
-    right: -4%;
+    right: -6%;
   }
   .form button {
     width: 50%;
