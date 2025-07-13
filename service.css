@@ -397,7 +397,7 @@ button:hover {
 }
 
 /* Mobile responsiveness for phones */
-@media (max-width: 768px) {
+@media and (max-width: 768px) {
   #navbar {
     flex-direction: column;
     height: auto;
@@ -431,8 +431,6 @@ button:hover {
   .subsect1 i {
     padding-right: 10%;
   }
-
-
 
   /* sec2 */
   .sec2,
@@ -536,6 +534,12 @@ button:hover {
     gap: 10px;
     height: auto;
     padding: 10px 0;
+  }
+  .bas p {
+    font-size: 1.5rem;
+  }
+  .log2 a {
+    font-size: 1.1rem;
   }
 
   .log2 {

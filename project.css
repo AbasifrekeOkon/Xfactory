@@ -69,18 +69,18 @@ span a:last-child {
 }
 
 .text {
-  background-color: black; 
-  width: 100%; 
-  height: 15vh; 
+  background-color: black;
+  width: 100%;
+  height: 15vh;
   color: white;
   font-size: 30px;
 }
-.text p{
+.text p {
   padding-top: 30px;
 }
-.text:hover{
+.text:hover {
   background-color: black;
-  p{
+  p {
     color: white;
   }
 }
@@ -105,17 +105,14 @@ span a:last-child {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-
-
 /* section of footer */
-#footer{
+#footer {
   background-color: rgb(10, 7, 7);
   display: block;
   justify-content: space-between;
   align-items: center;
-
 }
-.top{
+.top {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -123,7 +120,7 @@ span a:last-child {
   height: 10vh;
   padding: 10px;
 }
-#hhr{
+#hhr {
   background-color: white;
   color: gray;
   font: 600;
@@ -131,33 +128,31 @@ span a:last-child {
   height: 30px;
   font-size: 20px;
   border-radius: 20px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-.ema{
+.ema {
   text-align: center;
   padding-right: 100px;
   align-content: center;
-  
 }
-.bas{
+.bas {
   color: white;
   font-size: 30px;
 }
 
-#hhr:hover{
-  transition:transform;
+#hhr:hover {
+  transition: transform;
   width: 500px;
   transition-timing-function: ease-in-out;
   transition-duration: 3s;
   transition-property: all;
 }
 
-#hrr:focus{
+#hrr:focus {
   cursor: pointer;
-  
 }
-#ha{
-  background-color:orangered;
+#ha {
+  background-color: orangered;
   color: white;
   font-size: 15px;
   width: 100px;
@@ -166,173 +161,168 @@ span a:last-child {
   border-radius: 10px;
   font-size: 20px;
 }
-#ha:hover{
+#ha:hover {
   background-color: black;
   color: white;
 }
-.location{
+.location {
   display: flex;
   justify-content: space-evenly;
 }
-#vam{
+#vam {
   color: orangered;
   font-size: 30px;
- 
 }
-#vat{
+#vat {
   font-size: 25px;
   text-align: center;
   color: white;
 }
-#log{
+#log {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.log1{
+.log1 {
   display: flex;
 }
-.log1 i{
- font-size: 40px;
- color: orangered;
+.log1 i {
+  font-size: 40px;
+  color: orangered;
 }
-.log2 a{
+.log2 a {
   text-decoration: none;
   padding: 10px;
   font-size: 20px;
   color: orangered;
 }
-.log2 a:hover{
+.log2 a:hover {
   text-decoration: underline;
   color: white;
 }
-.log2 a:link{
+.log2 a:link {
   color: blue;
 }
-.log2 a:visited{
+.log2 a:visited {
   color: gainsboro;
 }
-.loc1{
+.loc1 {
   width: 200px;
   height: 20vh;
   border-right: 5px solid white;
   box-sizing: border-box;
   text-align: center;
 }
-#sim{
+#sim {
   font-size: 30px;
   font-family: sans-serif;
   padding-left: 10px;
   color: white;
 }
-#log{
+#log {
   height: 10vh;
 }
-.log3 i{
+.log3 i {
   padding: 10px;
   font-size: 30px;
   background-color: white;
   color: orangered;
   border-radius: 20px;
 }
-.log3 i:hover{
+.log3 i:hover {
   border-radius: 50%;
   color: rgb(29, 29, 54);
   background-color: orangered;
 }
-.log3 i:link{
+.log3 i:link {
   color: red;
 }
-.log3 i:visited{
+.log3 i:visited {
   color: green;
 }
-.copy{
+.copy {
   display: flex;
   justify-content: space-between;
 }
-#copy{
+#copy {
   font-size: 20px;
   color: orangered;
   font-style: oblique;
 }
-#copy1{
+#copy1 {
   font-size: 20px;
   color: white;
 }
-#cf{
+#cf {
   font-size: 20px;
   font-style: oblique;
   color: orangered;
 }
 
-
 /* Mobile responsiveness for phones */
 @media screen and (max-width: 768px) {
-  *{
+  * {
     margin: auto;
     padding: 0%;
     box-sizing: border-box;
   }
-  
-  
-  
+
   #navbar {
     flex-direction: column;
     height: auto;
     padding: 10px 0;
     position: inherit;
   }
-  span a, .log2 a {
+  span a,
+  .log2 a {
     display: block;
     padding: 15px 0;
     font-size: 18px;
     text-align: center;
   }
- 
+
   .logo {
     flex-direction: column;
     align-items: center;
     padding-left: 0;
   }
 
-
-
   /* team1 section */
 
-  .team1{
+  .team1 {
     display: grid;
     grid-template-columns: auto auto;
     box-sizing: border-box;
-    
   }
 
-  .div{
+  .div {
     box-sizing: border-box;
     width: 90%;
     height: 49vh;
-   
-    
   }
 
-  .figure1{
+  .figure1 {
     width: 100%;
   }
- .text{
-  font-size: 20px;
-  height: 60px;
-  
- }
-.text p{
-  position: relative;
-  bottom: 20px;
-}
+  .text {
+    font-size: 20px;
+    height: 60px;
+  }
+  .text p {
+    position: relative;
+    bottom: 20px;
+  }
 
- /* footer section */
-  #footer, .top, .copy, #log, .location {
+  /* footer section */
+  #footer,
+  .top,
+  .copy,
+  #log,
+  .location {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px ;
+    gap: 10px;
     height: auto;
     padding: 10px 0;
   }
@@ -342,33 +332,44 @@ span a:last-child {
     padding: 10px;
     gap: 10px 20px;
   }
+  .bas p {
+    font-size: 1.5rem;
+  }
+  .log2 a {
+    font-size: 1.1rem;
+  }
 
-  #footer{
+  #footer {
     position: relative;
     top: 180px;
   }
- #hhr{
+  #hhr {
     background-color: transparent;
     color: white;
     padding-left: 10px;
   }
 
-  #ha{
-  position: relative;
-  top: 9px;
+  #ha {
+    position: relative;
+    top: 9px;
   }
 
   .ema {
     padding-right: 0;
   }
-    .loc1 {
+  .loc1 {
     width: 100%;
     border-right: none;
     border-bottom: 2px solid white;
     height: auto;
     margin-bottom: 10px;
   }
-  #sim, #vat, #vam, #copy, #copy1, #cf {
+  #sim,
+  #vat,
+  #vam,
+  #copy,
+  #copy1,
+  #cf {
     font-size: 16px;
     padding: 0;
   }
@@ -378,14 +379,13 @@ span a:last-child {
     padding: 8px 10px;
     font-size: 16px;
   }
-     #ha {
-    width: 20% ;
-    left: 0 ;
+  #ha {
+    width: 20%;
+    left: 0;
     font-size: 16px;
     margin: 10px 0;
   }
 }
-
 
 /* Tablet responsiveness for screens between 769px and 1024px */
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -403,26 +403,29 @@ span a:last-child {
     padding-left: 10px;
   }
 
-  span a, .log2 a {
+  span a,
+  .log2 a {
     display: inline-block;
     padding: 20px 10px;
     font-size: 20px;
     text-align: center;
   }
 
-
-
   /* footer section */
-  #footer, .top, .copy, #log, .location {
+  #footer,
+  .top,
+  .copy,
+  #log,
+  .location {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px ;
+    gap: 10px;
     height: auto;
     padding: 10px 0;
   }
 
-  #footer{
+  #footer {
     position: relative;
     top: 180px;
   }
@@ -433,14 +436,19 @@ span a:last-child {
   .ema {
     padding-right: 0;
   }
-    .loc1 {
+  .loc1 {
     width: 100%;
     border-right: none;
     border-bottom: 2px solid white;
     height: auto;
     margin-bottom: 10px;
   }
-  #sim, #vat, #vam, #copy, #copy1, #cf {
+  #sim,
+  #vat,
+  #vam,
+  #copy,
+  #copy1,
+  #cf {
     font-size: 16px;
     padding: 0;
   }
@@ -451,5 +459,3 @@ span a:last-child {
     font-size: 16px;
   }
 }
-
-

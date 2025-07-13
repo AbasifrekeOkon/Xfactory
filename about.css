@@ -595,17 +595,21 @@ p {
     align-items: center;
     grid-template-columns: auto;
     padding-top: 100px;
+    margin: auto;
   }
+
+
   .tire,
   p:nth-child(2) {
     width: 100%;
-    padding-left: 5%;
+
   }
   .construct {
     display: grid;
     grid-template-columns: auto;
     padding-left: 10%;
   }
+
 
   /* team 1 */
 
@@ -619,13 +623,16 @@ p {
 
   .subcase1{
     width: 100%;
-    height: 35vh;
+    height: 25vh;
   }
   .case2 {
     display: flex;
     box-sizing: border-box;
     gap: 20px 10px;
     height: 70vh;
+  }
+  #hi ,#e{
+    font-size: 1.4rem;
   }
 
 
@@ -683,7 +690,7 @@ p {
   /* <!-- section id team3 --> */
   #team3 {
     display: block;
-    height: 75vh;
+    height: 50vh;
   }
 
   #team3 img {
@@ -698,8 +705,9 @@ p {
   /* <!-- section 4 --> */
 
  #team4 {
-  padding-top: 15%;
+  padding-top: 30%;
   height: 900px;
+  width: 100%;
   
 }
 .team4 {
@@ -783,6 +791,8 @@ p {
     gap: 10px 20px;
   }
 
+
+
   #footer{
     position: relative;
   }
@@ -796,12 +806,18 @@ p {
   position: relative;
   top: 9px;
   }
+  .bas p{
+    font-size: 1.5rem;
+  }
+  .log2 a{
+    font-size: 1.1rem;
+  }
 
   .ema {
     padding-right: 0;
   }
     .loc1 {
-    /* width: 100%; */
+    width: 100%;
     border-right: none;
     border-bottom: 2px solid white;
     height: auto;

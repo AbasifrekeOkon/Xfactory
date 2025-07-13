@@ -3,7 +3,8 @@
   margin: 0;
   max-width: 100%;
 }
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 selector:pseudo-class {
@@ -19,8 +20,7 @@ selector:pseudo-class {
   background-color: black;
   z-index: 1000;
 }
-.logo
-p {
+.logo p {
   color: white;
   font-size: 30px;
   /* padding-left: 20px; */
@@ -29,11 +29,11 @@ p {
   color: orangered;
   font-size: 50px;
 }
-.logo{
+.logo {
   display: flex;
   padding-left: 20px;
 }
-.left a:hover{
+.left a:hover {
   text-decoration: underline;
 }
 span a {
@@ -65,13 +65,12 @@ span a:last-child {
   background-color: rgba(19, 17, 17, 0.671);
   /* position: absolute; */
   /* right: 20px; */
- 
 }
-#sh{
+#sh {
   color: white;
   font-size: 80px;
 }
-.cob{
+.cob {
   position: relative;
   left: -10%;
   bottom: 50px;
@@ -89,14 +88,13 @@ button {
   color: white;
   font-weight: 800;
 }
-#con{
+#con {
   background-color: transparent;
   color: white;
-
 }
 button:hover {
   background-color: black;
-  #con{
+  #con {
     background-color: orangered;
   }
 }
@@ -159,7 +157,6 @@ p:first-child {
   height: 60vh;
 }
 
-
 /* section id=team2 */
 #team2 {
   background-image: url(images/oxyacetylene-cutting.jpg);
@@ -181,7 +178,7 @@ p:first-child {
   font-weight: 800;
   color: white;
 }
-.ta1 i{
+.ta1 i {
   font-size: 40px;
   color: orangered;
   padding-top: 40px;
@@ -190,7 +187,7 @@ p:first-child {
 .head {
   padding-top: 10%;
 }
-.cap{
+.cap {
   padding-bottom: 30px;
 }
 .team2 {
@@ -216,10 +213,10 @@ p:first-child {
 .ta1:hover {
   background-color: orangered;
   color: white;
-  i{
+  i {
     color: white;
   }
-  #ts{
+  #ts {
     color: white;
   }
 }
@@ -235,7 +232,6 @@ h3 {
   text-align: center;
   padding-left: 50px;
 }
-
 
 /* section id=team3 */
 #team3 {
@@ -265,9 +261,8 @@ h4 {
   font-size: 40px;
 }
 
-
 /* section id=team4 */
-#team4{
+#team4 {
   height: 50vh;
 }
 .team4 {
@@ -275,8 +270,6 @@ h4 {
   justify-content: space-evenly;
   text-align: center;
   padding-top: 30px;
-
-  
 }
 
 .tash img {
@@ -286,12 +279,11 @@ h4 {
 .tash {
   background-color: black;
   height: 45vh;
-  box-shadow: 0px 8px 20px 0 rgb(0,0,0,0.5);
+  box-shadow: 0px 8px 20px 0 rgb(0, 0, 0, 0.5);
   border: 10px outset gray;
   width: 300px;
 }
-.tash:hover{
- 
+.tash:hover {
 }
 #tim {
   color: orangered;
@@ -302,7 +294,6 @@ h6 {
   font-size: 30px;
   font-weight: 800;
 }
-
 
 /* section id=team5 */
 #team5 {
@@ -324,7 +315,7 @@ h6 {
   position: relative;
   bottom: 140px;
 }
-#tet{
+#tet {
   animation: transform;
   animation-name: tet;
   animation-duration: 10s;
@@ -335,7 +326,7 @@ h6 {
   font-size: 30px;
   padding-left: 5%;
 }
-#cz{
+#cz {
   color: gray;
   font-size: 20px;
   font-style: oblique;
@@ -344,17 +335,17 @@ h6 {
   bottom: 100px;
 }
 
-#tet{
-   bottom: 110px;
-   color: white;
-   position: relative;
+#tet {
+  bottom: 110px;
+  color: white;
+  position: relative;
 }
-@keyframes tet{
-  0%{
+@keyframes tet {
+  0% {
     transform: t;
     opacity: 0;
   }
-  100%{
+  100% {
     transform: translateX(0);
     opacity: 1;
   }
@@ -370,26 +361,22 @@ h6 {
   width: 50%;
   height: 45vh;
   margin: auto;
-
-  
 }
-.test{
+.test {
   animation: moveX 2s linear infinite;
   animation-timing-function: linear;
   animation-duration: 4s;
-  animation-name: mov-x ;
+  animation-name: mov-x;
 }
-
 
 .left {
   display: flex;
   align-items: center;
   position: relative;
- 
 }
 
 .left i {
-  position: relative; 
+  position: relative;
   background-color: orangered;
   width: 50px;
   height: 5vh;
@@ -401,141 +388,128 @@ h6 {
   right: 20px;
 }
 
-.right i{
+.right i {
   color: white;
- position: relative;
- background-color: orangered;
- width: 50px;
- height: 5vh;
- display: flex;
- justify-content: center;
- align-items: center;
- bottom: 350px;
- left:97% ;
-
+  position: relative;
+  background-color: orangered;
+  width: 50px;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 350px;
+  left: 97%;
 }
 
-
 /* section id=team6  */
-#team6{
+#team6 {
   padding-top: 3%;
   background-image: url(images/welding1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 90vh;
-  
-} 
-#vah{
+}
+#vah {
   color: orangered;
   text-align: center;
   font-size: 70px;
 }
-#sa{
+#sa {
   color: white;
   text-align: center;
   font-size: 50px;
 }
-.dash1 i{
+.dash1 i {
   color: orangered;
   font-size: 50px;
 }
- .team6{
+.team6 {
   display: flex;
   grid-template-rows: auto;
   gap: 10px 0px;
   padding: 50px;
   position: relative;
   top: 90px;
-  
- 
 }
-.dashed{
- width: 25%;
- background-color: white;
- text-align: center;
- box-shadow: 0px 8px 10px;
- margin: auto;
- height: 75vh;
- text-align: center;
- border-radius: 50px;
- 
-
-
+.dashed {
+  width: 25%;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0px 8px 10px;
+  margin: auto;
+  height: 75vh;
+  text-align: center;
+  border-radius: 50px;
 }
 
-.dashed:hover{
+.dashed:hover {
   background-color: orangered;
-  #h1,#cas,#dim{
+  #h1,
+  #cas,
+  #dim {
     color: white;
   }
-  
 }
-#cas{
+#cas {
   color: black;
   font-size: 30px;
 }
-#h1{
+#h1 {
   color: black;
   font-size: 30px;
 }
-#dim{
+#dim {
   color: black;
   width: 95%;
   font-size: 30px;
-
 }
 
-
-.dsa img{
-   width: 400px;
-   height: 40vh;
+.dsa img {
+  width: 400px;
+  height: 40vh;
 }
-.dsa{
+.dsa {
   text-align: center;
 }
-cla{
+cla {
   padding-top: 40px;
 }
-.news{
+.news {
   display: flex;
   justify-content: center;
   gap: 40px 40px;
   padding-top: 10%;
-
 }
-
 
 /* id any section*/
-#any{
+#any {
   padding-top: 20%;
 }
-.any{
-text-align: center;
+.any {
+  text-align: center;
 }
-#ca{
+#ca {
   color: orangered;
 }
-#mo{
+#mo {
   color: black;
   font-size: 40px;
 }
-.msg{
+.msg {
   background-color: black;
-  
 }
-.msg:hover{
+.msg:hover {
   background-color: orangered;
   color: white;
 }
-#call{
+#call {
   font-size: 30px;
   color: white;
 }
-.nnt{
+.nnt {
   position: relative;
   bottom: 410px;
   left: 10px;
-  
 }
 .back-to-top {
   position: fixed;
@@ -552,17 +526,14 @@ text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-
-
 /* section of footer */
-#footer{
+#footer {
   background-color: rgb(10, 7, 7);
   display: block;
   justify-content: space-between;
   align-items: center;
-
 }
-.top{
+.top {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -570,7 +541,7 @@ text-align: center;
   height: 10vh;
   padding: 10px;
 }
-#hhr{
+#hhr {
   background-color: white;
   color: gray;
   font: 600;
@@ -578,15 +549,14 @@ text-align: center;
   height: 30px;
   font-size: 20px;
   border-radius: 20px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-.ema{
+.ema {
   text-align: center;
   padding-right: 100px;
   align-content: center;
-  
 }
-.bas{
+.bas {
   color: white;
   font-size: 30px;
 }
@@ -600,8 +570,8 @@ text-align: center;
   transition: all 0.3s;
 }
 
-#ha{
-  background-color:orangered;
+#ha {
+  background-color: orangered;
   color: white;
   font-size: 15px;
   width: 100px;
@@ -610,107 +580,110 @@ text-align: center;
   border-radius: 10px;
   font-size: 20px;
 }
-#ha:hover{
+#ha:hover {
   background-color: black;
   color: white;
 }
-.location{
+.location {
   display: flex;
   justify-content: space-evenly;
 }
-#vam{
+#vam {
   color: orangered;
   font-size: 30px;
- 
 }
-#vat{
+#vat {
   font-size: 25px;
   text-align: center;
   color: white;
 }
-#log{
+#log {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.log1{
+.log1 {
   display: flex;
 }
-.log1 i{
- font-size: 40px;
- color: orangered;
+.log1 i {
+  font-size: 40px;
+  color: orangered;
 }
-.log2 a{
+.log2 a {
   text-decoration: none;
   padding: 10px;
   font-size: 20px;
   color: orangered;
 }
-.log2 a:hover{
+.log2 a:hover {
   text-decoration: underline;
   color: white;
 }
-.log2 a:link{
+.log2 a:link {
   color: blue;
 }
-.log2 a:visited{
+.log2 a:visited {
   color: gainsboro;
 }
-.loc1{
+.loc1 {
   width: 200px;
   height: 20vh;
   border-right: 5px solid white;
   box-sizing: border-box;
   text-align: center;
 }
-#sim{
+.bas p {
+  font-size: 1.5rem;
+}
+.log2 a {
+  font-size: 1.1rem;
+}
+
+#sim {
   font-size: 30px;
   font-family: sans-serif;
   padding-left: 10px;
   color: white;
 }
-#log{
+#log {
   height: 10vh;
 }
-.log3 i{
+.log3 i {
   padding: 10px;
   font-size: 30px;
   background-color: white;
   color: orangered;
   border-radius: 20px;
 }
-.log3 i:hover{
+.log3 i:hover {
   border-radius: 50%;
   color: rgb(29, 29, 54);
   background-color: orangered;
 }
-.log3 i:link{
+.log3 i:link {
   color: red;
 }
-.log3 i:visited{
+.log3 i:visited {
   color: green;
 }
-.copy{
+.copy {
   display: flex;
   justify-content: space-between;
 }
-#copy{
+#copy {
   font-size: 20px;
   color: orangered;
   font-style: oblique;
 }
-#copy1{
+#copy1 {
   font-size: 20px;
   color: white;
 }
-#cf{
+#cf {
   font-size: 20px;
   font-style: oblique;
   color: orangered;
 }
-
-
-
 
 /* Mobile responsiveness for phones */
 @media screen and (max-width: 768px) {
@@ -720,13 +693,14 @@ text-align: center;
     padding: 10px 0;
     position: inherit;
   }
-  span a, .log2 a {
+  span a,
+  .log2 a {
     display: block;
     padding: 15px 0;
     font-size: 18px;
     text-align: center;
   }
- 
+
   .logo {
     flex-direction: column;
     align-items: center;
@@ -735,293 +709,258 @@ text-align: center;
 
   /* div section */
 
-  .div{
+  .div {
     height: 60vh;
   }
-  .cob{
+  .cob {
     position: relative;
     right: 10%;
     top: 10%;
     padding-left: 100px;
-   
   }
 
-  #sh{
+  #sh {
     font-size: 30px;
   }
 
-
-
-  .team1{
+  .team1 {
     display: block;
-     width: 100%;
+    width: 100%;
     text-align: center;
-    
   }
-  .item1{
-    padding-left: 18%;
+  .item1 {
+    padding-left: 14%;
   }
-  .item1 a{
-    padding-right: 20% ;
+  .item1 a {
+    padding-right: 20%;
   }
 
-  .item2{
+  .item2 {
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
-   box-sizing: border-box;
-  
-    
-    
+    box-sizing: border-box;
   }
-  .item2 img{
+  .item2 img {
     display: flex;
     width: 50%;
-
-  
   }
-/* section team2 */
+  /* section team2 */
 
-#team2{
-  height: 90vh;
-}
-#jaj{
-  font-size: 100%;
-}
+  #team2 {
+    height: 90vh;
+  }
+  #jaj {
+    font-size: 100%;
+  }
 
-.ta1 h3{
-  font-size: 90%;
-}
-.team2{
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 5px 0px;
-  padding-top: 10%;
- 
- }
-.ta1{
-  width: 100%;
-  text-align: center;
-  height: 32vh;
-  padding-top: 0%;
+  .ta1 h3 {
+    font-size: 90%;
+  }
+  .team2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px 0px;
+    padding-top: 10%;
+  }
+  .ta1 {
+    width: 100%;
+    text-align: center;
+    height: 32vh;
+    padding-top: 0%;
+  }
+  .ta1 i {
+    font-size: 50px;
+    padding-top: 10%;
+  }
+  .ta1 h3 {
+    font-size: 30px;
+  }
+  #ts {
+    text-align: center;
+    width: 200px;
+    padding-left: 0%;
+    padding-bottom: 30%;
+  }
 
-}
-.ta1 i{
-  font-size: 50px;
-  padding-top: 10%;
-}
-.ta1 h3{
-  font-size: 30px;
-}
-#ts{
-  text-align: center;
-  width: 200px;
-  padding-left: 0%;
-  padding-bottom: 30%;
-}
-
- /* section team1 */
+  /* section team1 */
   #team1 h1 {
     font-size: 20px;
     text-align: center;
     padding-top: 15%;
   }
-  #team1 h2{
+  #team1 h2 {
     font-size: 30px;
     text-align: center;
   }
 
-  .item1 button{
+  .item1 button {
     width: 40%;
   }
- .item2 img{
-
- }
-   .item1 p{
+  .item2 img {
+  }
+  .item1 p {
     font-size: 25px;
     height: 30vh;
     width: 400px;
   }
 
-
   /* section team3 */
-  #team3{
+  #team3 {
     position: relative;
     top: 100px;
   }
- 
- .team3{
+
+  .team3 {
     padding-top: 10%;
- }
- .div3 h5{
-  position: relative;
-  right: 40%;
-  font-size: 20px;
- } 
- .div4 button{
-  width: 100px;
-  height: 6vh;
-  font-size: 50%;
-  position: relative;
-  left: 50%;
- }
- 
+  }
+  .div3 h5 {
+    position: relative;
+    right: 40%;
+    font-size: 20px;
+  }
+  .div4 button {
+    width: 100px;
+    height: 6vh;
+    font-size: 50%;
+    position: relative;
+    left: 50%;
+  }
+
   /* #team4 */
 
-  #team4{
-
+  #team4 {
   }
 
-  .team4{
+  .team4 {
     display: block;
     flex-direction: column;
-
-
-
   }
 
-  .tash{
+  .tash {
     margin: auto;
     width: 80%;
-    
-    
   }
-
 
   /* section5 */
 
-  #team5{
-   padding-top: 600px;
-    
+  #team5 {
+    padding-top: 20rem;
   }
 
-  .team5{
+  .team5 {
     padding-top: 950px;
   }
-  #client{
+  #client {
     font-size: 30px;
   }
-  .test{
+  .test {
     width: 90%;
     text-align: center;
     height: 40vh;
   }
 
-  #tet{
+  #tet {
     font-size: 20px;
     position: relative;
     bottom: 60px;
-    
-   
   }
- #cz{
-  position: relative;
-  top: -15%;
- }
-  .test img{
+  #cz {
+    position: relative;
+    top: -15%;
+  }
+  .test img {
     position: relative;
     bottom: 35%;
   }
-  .right{
+  .right {
     right: 60px;
     /* width: 20px; */
   }
-  .left{
+  .left {
     padding-top: 50px;
   }
 
   /* section6 */
 
   #team6 {
-  padding-top: 13%;
-  background-image: url(images/welding1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh; 
-  height: auto;      
-  width: 100%;
-  position: relative;
-  z-index: 0;
-}
-  
+    padding-top: 13%;
+    background-image: url(images/welding1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+  }
 
-  
-
-  .team6{
- display: block;
- 
- 
- 
+  .team6 {
+    display: block;
   }
   .dashed {
-  width: 500px;
-  margin: 0 auto 50px auto;
-  box-sizing: border-box;
-  height: 35vh;
- 
-  
-} 
-.dashed:hover{
-  background-color: orangered;
-  #h1{
-    color: white;
+    width: 500px;
+    margin: 0 auto 50px auto;
+    box-sizing: border-box;
+    height: 35vh;
   }
-}
+  .dashed:hover {
+    background-color: orangered;
+    #h1 {
+      color: white;
+    }
+  }
 
-  #h1 ,#cas {
+  #h1,
+  #cas {
     font-size: 20px;
     position: relative;
     bottom: 20px;
-
-
   }
-  #dim{
+  #dim {
     font-size: 20px;
-   position: relative;
-   bottom: 20px;
-   padding-left: 10px;
- 
+    position: relative;
+    bottom: 20px;
+    padding-left: 10px;
   }
-
-
 
   /* any section */
 
-  #any{
+  #any {
     padding-top: 150px;
   }
 
-  #mo{
+  #mo {
     font-size: 30px;
   }
 
-  .news{
+  .news {
     display: block;
     flex-direction: column;
     gap: 20px;
-   
-
   }
 
-  .dsa{
+  .dsa {
     width: 70%;
-   margin: auto;
-  padding-top: 50px;
-
+    margin: auto;
+    padding-top: 50px;
   }
-  .nnt{
+  .nnt {
     position: relative;
-   visibility: hidden;
+    visibility: hidden;
   }
-
 
   /* footer section */
-  #footer, .top, .copy, #log, .location {
+  #footer,
+  .top,
+  .copy,
+  #log,
+  .location {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px ;
+    gap: 10px;
     height: auto;
     padding: 10px 0;
   }
@@ -1032,32 +971,37 @@ text-align: center;
     gap: 10px 20px;
   }
 
-  #footer{
+  #footer {
     position: relative;
     top: 180px;
   }
-  #hhr{
+  #hhr {
     background-color: transparent;
     color: white;
     padding-left: 10px;
   }
 
-  #ha{
-  position: relative;
-  top: 9px;
+  #ha {
+    position: relative;
+    top: 9px;
   }
 
   .ema {
     padding-right: 0;
   }
-    .loc1 {
+  .loc1 {
     width: 100%;
     border-right: none;
     border-bottom: 2px solid white;
     height: auto;
     margin-bottom: 10px;
   }
-  #sim, #vat, #vam, #copy, #copy1, #cf {
+  #sim,
+  #vat,
+  #vam,
+  #copy,
+  #copy1,
+  #cf {
     font-size: 16px;
     padding: 0;
   }
@@ -1068,7 +1012,6 @@ text-align: center;
     font-size: 16px;
   }
 }
-    
 
 /* Tablet responsiveness for screens between 769px and 1024px */
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -1086,146 +1029,118 @@ text-align: center;
     padding-left: 10px;
   }
 
-  span a, .log2 a {
+  span a,
+  .log2 a {
     display: inline-block;
     padding: 20px 10px;
     font-size: 20px;
     text-align: center;
   }
 
-
   /* .div section */
 
- .div{
-  padding-left: 25%;
+  .div {
+    padding-left: 25%;
+  }
+  .cob {
+    padding-top: 100px;
+  }
+  .cob button {
+    width: 300px;
+    font-size: 20px;
+  }
 
- }
- .cob{
-  padding-top:100px;
- }
- .cob button{
-  width: 300px;
-  font-size: 20px;
- }
- 
+  /* team1 section */
+  #team1 {
+    display: block;
+    overflow-x: scroll;
+  }
 
+  /* team2 section */
+  #team2 {
+    height: 80vh;
+  }
+  #ts {
+    font-size: 30px;
+  }
+  .team2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px 10px;
+  }
+  .ta1 {
+    height: 33vh;
+  }
 
- /* team1 section */
- #team1{
-     display: block;
-     overflow-x: scroll;
+  /* team3 section */
 
- }
+  #team3 {
+    padding-top: 300px;
+  }
 
+  /* team 4 setion */
+  .tash {
+    /* height: 80vh; */
+  }
+  #tim {
+    font-size: 30px;
+  }
 
-
- /* team2 section */
- #team2{
-  height:80vh;
- }
- #ts{
-  font-size: 30px;
- }
- .team2{
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 20px 10px;
- }
- .ta1{
-  height: 33vh;
- }
-
-
- /* team3 section */
-
- #team3{
-  padding-top: 300px;
- }
- 
-
- /* team 4 setion */
-.tash{
-  /* height: 80vh; */
-
-
-}
-#tim{
-  font-size: 30px;
-}
-
-
- /* team5 section */
- .test{
-  width: 80%;
-  
-
- }
- .test img{
-  width: 30%;
-  height: 20vh;
- }
- #tet{
-  position: relative;
-  bottom: 100px;
- }
-  #cz{
+  /* team5 section */
+  .test {
+    width: 80%;
+  }
+  .test img {
+    width: 30%;
+    height: 20vh;
+  }
+  #tet {
+    position: relative;
+    bottom: 100px;
+  }
+  #cz {
     position: relative;
     bottom: 100px;
   }
 
-
   /* team6 secton */
 
-  #team6{
-  /* height: 70vh; */
-  box-sizing: border-box;
+  #team6 {
+    /* height: 70vh; */
+    box-sizing: border-box;
   }
 
-
-  
-   .team6{
+  .team6 {
     display: grid;
-   /* position: relative; */
-   left: -5%;
-   grid-template-columns: auto auto;
-
-     
+    /* position: relative; */
+    left: -5%;
+    grid-template-columns: auto auto;
   }
 
-
- 
-
-  .dashed{
+  .dashed {
     width: 400px;
     height: 45vh;
     text-align: center;
-   
-   
-  } 
+  }
 
- 
-  .dashed:hover{
+  .dashed:hover {
     background-color: orangered;
     color: white;
     box-shadow: none;
-    #h1{
+    #h1 {
       color: white;
     }
   }
- 
-
-
 
   /* anything section */
 
-  #any{
-   display: block;
-   box-sizing: border-box;
-   padding-top: 50%;
-
+  #any {
+    display: block;
+    box-sizing: border-box;
+    padding-top: 50%;
   }
 
-  .news{
+  .news {
     width: 100%;
     box-sizing: border-box;
   }
@@ -1237,7 +1152,7 @@ text-align: center;
     padding-right: 0;
     color: black;
   }
-  .nnt{
+  .nnt {
     position: relative;
     top: 0px;
   }
@@ -1256,10 +1171,12 @@ text-align: center;
     font-size: 18px;
   }
 
-
-
   /* footer section */
-  #footer, .top, .copy, #log, .location {
+  #footer,
+  .top,
+  .copy,
+  #log,
+  .location {
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -1272,5 +1189,3 @@ text-align: center;
     margin: 10px 1%;
   }
 }
-
-
