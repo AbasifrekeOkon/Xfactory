@@ -869,9 +869,14 @@ cla {
     position: relative;
     top: -15%;
   }
+
+  .test{
+    padding-bottom: 20%;
+  }
   .test img {
     position: relative;
-    top: -30%;
+    top: -20%;
+    height: 20vh;
   }
   .right {
     right: 60px;
