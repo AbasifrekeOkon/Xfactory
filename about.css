@@ -614,7 +614,7 @@ p {
   /* team 1 */
 
   #team1 {
-    height: 90vh;
+    height: 70vh;
 
   }
   .team1{
@@ -761,7 +761,8 @@ p {
 #brown{
    font-size: 20px;
    padding-left: 0px;
-   height: 140px;
+   height: 130px;
+   padding-top: 10px;
    
    
  }

@@ -267,7 +267,7 @@ span a:last-child {
     box-sizing: border-box;
   }
 
-  #navbar {
+   #navbar {
     flex-direction: column;
     height: auto;
     padding: 10px 0;
@@ -286,6 +286,7 @@ span a:last-child {
     align-items: center;
     padding-left: 0;
   }
+
 
   /* team1 section */
 
