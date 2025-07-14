@@ -723,6 +723,11 @@ cla {
     font-size: 30px;
   }
 
+  #team1{
+    padding-right: 5 %;
+  }
+  
+
   .team1 {
     display: block;
     width: 100%;
