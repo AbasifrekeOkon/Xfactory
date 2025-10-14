@@ -7,317 +7,170 @@
   <title>XFactory wesite</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
-  <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" -->
-  <!-- rel="stylesheet"> -->
   <script src="script.js" defer></script>
 </head>
 
 
 <body>
 
-
   <header>
-    <div class="logo">
+    
+ <!-- ===== NAVBAR ===== -->
+   <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">XFactory</div>
+      <div class="menu-icon" id="menu-icon">&#9776;</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="project.html">Project</a></li>
+        
+      </ul>
+    </div>
+  </nav>
 
-      <div class="f">
-        <p>XFactory</p>
+</header>
+
+
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-subtitle">It's who we are, it's what we do.</p>
+      <h1 class="hero-title">We Build Trust, We're Xtra Factory</h1>
+      <div class="hero-buttons">
+        <a href="contact.html" class="btn">Contact Us</a>
+        <a href="project.html" class="btn secondary">See More Projects</a>
       </div>
-
-    </div>
-
-    <div class="left">
-
-      <a href="#Home">HOME</a>
-      <a href="about.html">ABOUT</a>
-      <a href="project.html">PROJECT</a>
-      <a href="contact.html">CONTACT</a>
-      <a href="service.html">SERVICES</a>
-    </div>
-    <div class="hamburger">
-     <div class="burger-icon">
-       <i class="fa-solid fa-bars"></i>
-     </div>
-      <nav class="nav-links">
-        <span> <a href="#Home">HOME</a></span>
-        <span><a href="about.html">ABOUT</a></span>
-        <span><a href="project.html">PROJECT</a></span>
-        <span><a href="contact.html">CONTACT</a></span>
-        <span><a href="service.html">SERVICES</a></span>
-      </nav>
-      
-      </div>
-    </div>
-
-
-  </header>
-
-  <div class="div">
-    <div class="cob">
-      <p id="sh">It's who we are, it's what we do.</p>
-      <p id="tam">We Build Trust, We're Xtra Factory</p>
-      <a href="contact.html"><button id="but-on">CONTACT US</button></a>
-      <a href="project.html"><button id="but-on">SEE MORE PROJECT</button></a>
-    </div>
-  </div>
-
-  <section id="team1">
-    <h1>ABOUT OUR COMPANY</h1><br><br>
-    <h2>We Build Trust, We're X Factor</h2>
-    <div class="team1">
-      <div class="item1">
-        <p>A factory, manufacturing plant or a production plant is on industial site,
-          usually a complex consisting of several building filled with machinery,where workers manufacture items or
-          operate machines which process each item into another.
-        </p><br><br>
-        <a href="about.html"><button class="button">About Us</button></a>
-      </div>
-      <div class="item2">
-        <img src="images/bridge.jpg" alt="an image">
-
-
-      </div>
-    </div>
     </div>
   </section>
-  <br><br>
 
-
-  <section id="team2">
-    <div class="head">
-      <h1>OUR SERVICES</h1><br>
-      <div class="cap">
-        <P id="jaj">WHAT WE OFFER &<br> WHAT WE DO.</P>
-
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="team1" class="about">
+    <h2>ABOUT OUR COMPANY</h2>
+    <h3>We Build Trust, We're Xtra Factory</h3>
+    <div class="about-container">
+      <div class="about-text">
+        <p>A factory, manufacturing plant or production plant is an industrial site,
+          usually consisting of several buildings filled with machinery, where workers manufacture items
+          or operate machines that process each item into another.</p>
+        <a href="about.html" class="btn">About Us</a>
+      </div>
+      <div class="about-image">
+        <img src="images/bridge.jpg" alt="Bridge Construction">
       </div>
     </div>
-    <div class="team2">
-      <div class="ta1">
+  </section>
+
+  <!-- ===== SERVICES SECTION ===== -->
+  <section id="team2" class="services">
+    <h2>OUR SERVICES</h2>
+    <p class="section-subtitle">WHAT WE OFFER & WHAT WE DO</p>
+    <div class="service-grid">
+      <div class="service-item">
         <i class="fa-solid fa-cart-shopping"></i>
-        <h3>Building <br> Materials</h3>
-        <br>
-        <p id="ts">A factory, manufacturing plant or a plant is an industial site</p>
+        <h3>Building Materials</h3>
+        <p>A factory or industrial plant designed to deliver quality construction materials.</p>
       </div>
-      <div class="ta1">
+      <div class="service-item">
         <i class="fa-solid fa-users"></i>
-        <h3>Top <br> Specialist</h3>
-        <br>
-        <p id="ts">A factory, manufacturing plant or a plant is an industial site</p>
+        <h3>Top Specialists</h3>
+        <p>Our team of experts ensures high standards in every project we deliver.</p>
       </div>
-      <div class="ta1">
+      <div class="service-item">
         <i class="fa-solid fa-book"></i>
-        <h3>Accurate <br> Planning</h3>
-        <br>
-        <p id="ts">A factory, manufacturing plant or a plant is an industial site</p>
+        <h3>Accurate Planning</h3>
+        <p>We provide precision in our designs and construction workflows.</p>
       </div>
-      <div class="ta1">
-        <i class="fa-solid fa-cart-shopping"></i>
-        <h3>Building <br> Materials</h3>
-        <br>
-        <p id="ts">A factory, manufacturing plant or a plant is an industial site</p>
+      <div class="service-item">
+        <i class="fa-solid fa-industry"></i>
+        <h3>Industrial Works</h3>
+        <p>We handle industrial projects that require precision and expertise.</p>
       </div>
-    </div>
-    </div>
-
-  </section>
-
-  <section id="team3">
-    <h4>LATEST PROJECTS</h4>
-    <div class="team3">
-      <div class="div3">
-        <h5>Featured Projects</h5>
-      </div>
-
-      <div class="div4">
-        <a href="project.html"><button class="pro">PROJECTS</button></a>
-      </div>
-
     </div>
   </section>
 
-  <!-- sectioon team4 -->
-  <section id="team4">
-    <div class="team4">
-
-      <div class="tash">
-        <img src="images/welding-simon.jpg" alt="a welding image">
-        <div class="figcaption">
-          <h6>Machinery & Gear</h6>
-          <p id="tim">Industrial</p>
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section id="team3" class="projects">
+    <h2>LATEST PROJECTS</h2>
+    <div class="project-header">
+      <h3>Featured Projects</h3>
+      <a href="project.html" class="btn">Projects</a>
+    </div>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="images/welding-simon.jpg" alt="welding image">
+        <div class="caption">
+          <h4>Machinery & Gear</h4>
+          <p>Industrial</p>
         </div>
       </div>
-      <div class="tash">
-        <img src="images/welding-fumes.jpg" alt="a gear image">
-        <div class="figcaption">
-          <h6>Fatory is Safe & Secure </h6>
-          <p id="tim">Factory</p>
+      <div class="project-card">
+        <img src="images/wel 3.jpg" alt="welding fumes">
+        <div class="caption">
+          <h4>Factory Safety</h4>
+          <p>Factory</p>
         </div>
       </div>
-      <div class="tash">
-        <img src="images/short-break-.jpg" alt="a refinery image">
-        <div class="figcaption">
-          <h6>Petrochemical Industry </h6>
-          <p id="tim">Industrial</p>
+      <div class="project-card">
+        <img src="images/road1.jpg" alt="welder ">
+        <div class="caption">
+          <h4>Petrochemical Industry</h4>
+          <p>Industrial</p>
         </div>
       </div>
-      <div class="tash">
-        <img src="images/welding-dmitry-stepanov.jpg" alt="cnc image">
-        <div class="figcaption">
-          <h6>Low Angle</h6>
-          <p id="tim">Industrial</p>
+      <div class="project-card">
+        <img src="images/bridge.jpg" alt="welding">
+        <div class="caption">
+          <h4>We Construct Bridges</h4>
+          <p>Industrial</p>
         </div>
       </div>
     </div>
   </section>
 
-
-
-
-
-  <!-- section 6 -->
-  <section id="team6">
-    <div class="team6">
-      <div class="dashed">
-        <br><br>
-        <h1 id="h1"> Our Mission</h1>
-        <br><br>
-        <p id="cas">
-          Missions Xtra
-        </p><br><br>
-        <p id="dim">
-          A factory,manufacturing plant or a production plant is an industrial site,usually a complex consisting of
-          several
-          buildings filled with machinery,where workers manufacture items or operate machines which process each
-          item
-          into
-          another.
-        </p>
-
+  <!-- ===== MISSION & VISION ===== -->
+  <section id="team6" class="mission">
+    <h2>Our Core Values</h2>
+    <div class="mission-grid">
+      <div class="mission-item">
+        <h3>Our Mission</h3>
+        <p>We aim to build trust by delivering high-quality industrial projects efficiently.</p>
       </div>
-      <div class="dashed">
-        <br><br>
-        <h1 id="h1">Our Vissions
-        </h1>
-        <br><br>
-        <p id="cas">
-          Xtra Factory Vissions
-        </p><br><br>
-        <p id="dim"> A factory,manufacturing plant or a production plant is an industrial site,usually a complex
-          consisting of
-          several
-          buildings filled with machinery,where workers manufacture items or operate machines which process each
-          item into
-          another.
-        </p>
+      <div class="mission-item">
+        <h3>Our Vision</h3>
+        <p>To be the leading provider of industrial and construction excellence in Africa.</p>
       </div>
-      <div class="dashed">
-        <br><br>
-        <h1 id="h1"> Our History</h1>
-        <br><br>
-        <p id="cas">
-          Founding of Xtra Factory
-        </p>
-        <br><br>
-        <p id="dim"> A factory,manufacturing plant or a production plant is an industrial site,usually a complex
-          consisting of
-          several
-          buildings filled with machinery,where workers manufacture items or operate machines which process each
-          item
-          into
-          another.</p>
-
+      <div class="mission-item">
+        <h3>Our History</h3>
+        <p>Founded on principles of quality and dedication, Xtra Factory continues to grow globally.</p>
       </div>
     </div>
   </section>
 
-
-  <!-- any section -->
-  <section id="anynews">
-    <div class="any">
-      <h1 id="ca">LATEST NEWS</h1>
-      <p id="mo">Don't Miss Anthing</p>
-    </div>
-
-    <div class="news">
-      <div class="dsa">
-        <img src="images/wel 3.jpg" alt="welding">
-        <div class="msg">
-          <p id="call">How To Be ahead Of Stock Change.</p>
-          <button class="nnt">For More Stock</button>
-        </div>
-      </div>
-      <div class="dsa">
-        <img src="images/bridge.jpg" alt="bridge">
-        <div class="msg">
-          <p id="call">Online & Reputation Management.</p>
-          <button class="nnt">Read More</button>
-        </div>
-      </div>
-      <div class="dsa">
-        <img src="images/sparks-dm.jpg" alt="refinery">
-        <div class="msg">
-          <p id="call">Tips To More Project More Forward.</p>
-          <button class="nnt">For More Project</button>
-        </div>
-        <a href="#top" class="back-to-top" title="Go to top">
-          <i class="fa-solid fa-arrow-up"></i>
-        </a>
-  </section>
-
-
-
-  <br><br><br>
+  <!-- ===== FOOTER ===== -->
   <footer id="footer">
-    <div class="top">
-      <div class="bas">
-        <p>
-          Get your work done by reaching out to us on
-        </p>
-      </div>
+    <div class="footer-top">
+      <p>Get your work done by reaching out to us on</p>
+      <div class="socials">
+       <a href="https://www.facebook.com/abasifrekeokon007/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.discord.com/ever_green_001/" target="_blank"><i class="fa-brands fa-discord"></i></a>
+        <a href="https://www.youtube.com/@AbasifrekeOkon-pm9xd/" target="_blank"><i
+            class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.instagram.com/abasifrekeokon/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@abasifrekeokon" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://www.x.com/@abasifreke92129/" target="_blank"><i class="fa-brands fa-x"></i></a>
 
+      </div>
     </div>
     <hr>
-   
-      <div class="log2">
-        <a href="index.html">HOME</a>
-        <a href="about.html">ABOUT</a>
-        <a href="project.html">PROJECT</a>
-        <a href="contact.html">CONTACT</a>
-        <a href="service.html">SERVICES</a>
-
-      </div>
-
-      <div class="log3">
-        <a href="https://www.facebook.com/abasifrekeokon007/" target="_blank"><i class="fa-brands fa-facebook"
-            id="soc"></i></a>
-        <a href="https://www.discord.com/ever_green_001/" target="_blank"><i class="fa-brands fa-discord"
-            id="soc"></i></a>
-        <a href="https://www.youtube.com/@AbasifrekeOkon-pm9xd/" target="_blank"><i class="fa-brands fa-youtube"
-            id="soc"></i></a>
-        <a href="https://www.instagram.com/abasifrekeokon/" target="_blank"><i class="fa-brands fa-instagram"
-            id="soc"></i></a>
-        <a href="https://www.tiktok.com/@abasifrekeokon" target="_blank"><i class="fa-brands fa-tiktok"
-            id="soc"></i></a>
-        <a href="https://www.x.com/@abasifreke92129/" target="_blank"><i class="fa-brands fa-x" id="soc"></i></a>
-      
-      </div>
-
-    </div>
-    <hr>
-
-    <div class="copy">
-      <div class="cop">
-        <p id="copy">© 2024 XFactory. All rights reserved.</p>
-        <p id="copy1">Designed by Abasifreke Okon</p>
-      </div>
-      <div class="cy">
-        <p id="cf">
-          Term & Conditions | Privacy Policy | Cookie Policy
-        </p>
-      </div>
-    </div>
+    <p class="copy">© 2024 Xtra Factory. All rights reserved. | Designed by Abasifreke Okon</p>
+    <p>Phone: 08136373985</p>
   </footer>
-</body>
 
+  
+ 
+</body>
 </html>
